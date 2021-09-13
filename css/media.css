@@ -1,0 +1,640 @@
+@media (max-width: 1440px) {
+
+    .header__content {
+        background: url(../img/bannerBig.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    /* header start */
+
+    .container {
+        width: 1200px;
+    }
+
+    .translate,
+    .header__link {
+        font-size: 18px;
+    }
+
+    /* header start */
+    /* shop start */
+
+    .shop__card {
+        max-width: 285px;
+    }
+
+    .shop__title::before,
+    .shop__title::after {
+        display: none;
+    }
+
+    /* shop end */
+    /* about start */
+
+    .about__img {
+        max-width: 600px;
+    }
+
+    .about__desc-txt {
+        max-width: 540px;
+    }
+
+    /* about end */
+    /* work start */
+
+    .work__box {
+        max-width: 390px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 380px 380px 380px;
+    }
+
+    /* work end */
+}
+
+@media (max-width: 1336px) {
+
+    .shop__title::before,
+    .shop__title::after {
+        width: 30%;
+        right: -34%;
+    }
+
+    .shop__title::before {
+        left: -34%;
+    }
+
+    .about__img img {
+        object-position: left;
+    }
+
+    .about__desc-title::after {
+        right: 3%;
+    }
+
+    .contact__content {
+        justify-content: space-around;
+    }
+}
+
+/* @media (max-width: 1320px) {} */
+@media (max-width: 1290px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .header__list {
+        column-gap: 60px;
+    }
+
+    .shop__card {
+        max-width: 265px;
+    }
+
+    .about__img {
+        max-width: 570px;
+    }
+
+    .work__box {
+        max-width: 370px;
+    }
+
+    #contact::before,
+    #contact::after {
+        right: 45%;
+    }
+
+    .work__boxes {
+        grid-template-columns: 360px 360px 360px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .header__list {
+        column-gap: 40px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 300px 300px;
+    }
+
+    .about__desc-year {
+        font-size: 150px;
+    }
+
+    .about__desc-span {
+        font-size: 46px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 480px 480px;
+    }
+
+    .about__desc2 {
+        column-gap: 100px;
+    }
+
+    .about__desc-title::after {
+        width: 30%;
+    }
+
+    .about__desc-txt {
+        max-width: 450px;
+        font-size: 16px;
+    }
+
+    .about__img {
+        max-width: 480px;
+    }
+
+    .contact__title {
+        padding-right: 170px;
+    }
+
+    #contact::before,
+    #contact::after {
+        right: 55%;
+    }
+
+    .contact__title::after {
+        right: 8%;
+    }
+
+    #contact::before {
+        width: 35%;
+    }
+
+    #contact::after {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 920px;
+    }
+
+    .header__list2 {
+        column-gap: 10px;
+    }
+
+    .shop__cards {
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 250px 250px;
+        place-items: center;
+        margin-bottom: 10px;
+    }
+
+    .shop__card {
+        max-height: 240px;
+        max-width: 370px;
+    }
+
+    .about__img1::after {
+        right: -20px;
+        top: -20px;
+    }
+
+    .about__desc-title::after {
+        right: 11%;
+    }
+
+    .contact__title {
+        font-size: 32px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 380px 380px;
+        place-content: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .about__desc {
+        justify-content: space-around;
+    }
+
+    .about__desc-txt {
+        max-width: 400px;
+    }
+
+    .about__desc-title::after {
+        right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+    }
+
+    .container {
+        max-width: 650px;
+    }
+
+    .header__list,
+    .header__list2 {
+        display: none;
+    }
+
+    .header__menu {
+        height: 4px;
+        width: 50px;
+        background: #fff;
+        position: relative;
+        display: flex;
+    }
+
+    .header__menu::before,
+    .header__menu::after {
+        position: absolute;
+        content: '';
+        height: 4px;
+        width: 50px;
+        top: 15px;
+        left: 0;
+        background: #fff;
+    }
+
+    .header__menu::before {
+        top: -15px;
+    }
+
+    .header__info-title {
+        font-size: 32px;
+    }
+
+    .header__info-txt {
+        font-size: 24px;
+    }
+
+    .shop__title {
+        padding: 15px 0;
+        font-size: 40px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 350px 350px;
+    }
+
+    .shop__card {
+        max-width: 350px;
+    }
+
+    .about__desc-title::before {
+        top: 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .about__desc-title {
+        font-size: 40px;
+        padding-left: 60px;
+    }
+
+    #about {
+        margin-bottom: 0;
+    }
+
+    .about__desc {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .about__desc2 {
+        display: none;
+    }
+
+    .about__desc-txt,
+    .about__img {
+        max-width: 650px;
+        letter-spacing: 1.2px;
+    }
+
+    .about__desc-title::after {
+        width: 70%;
+        right: 0;
+    }
+
+    .work__title {
+        margin-bottom: 0;
+        height: 140px;
+        text-shadow: 1px 2px 3px #000;
+    }
+
+    .work__boxes {
+        grid-template-columns: 320px 320px;
+    }
+
+    .contact__title::after {
+        right: 0;
+    }
+
+    .contact__title {
+        padding-right: 70px;
+    }
+
+    #contact::before,
+    #contact::after {
+        right: 59%;
+    }
+
+    .contact__title {
+        margin-bottom: 90px;
+    }
+
+    .contact__content {
+        justify-content: space-between;
+    }
+
+    .contact__phones,
+    .contact__message {
+        column-gap: 35px;
+    }
+}
+
+/* @media (max-width: 736px) {} */
+/* @media (max-width: 734px) {} */
+@media (max-width: 684px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 300px 300px;
+    }
+
+    .about__desc-txt,
+    .about__img {
+        max-width: 600px;
+    }
+
+    #contact::before,
+    #contact::after {
+        right: 63%;
+    }
+
+    #contact::after {
+        width: 25%;
+    }
+
+    #contact::before {
+        width: 30%;
+    }
+
+    .contact__content {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .contact__adresses {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .contact__phones {
+        margin-bottom: 0;
+    }
+}
+
+/* @media (max-width: 667px) {} */
+@media (max-width: 576px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .header__content .container {
+        padding: 0 20px 0 50px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 250px 250px;
+    }
+
+    .about__desc-txt {
+        max-width: 550px;
+    }
+
+    .about__img {
+        max-width: 520px;
+    }
+
+    .about__desc-title::after {
+        width: 65%;
+    }
+
+    #work {
+        margin-bottom: 50px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 250px 250px;
+    }
+
+    .contact__phones,
+    .contact__message {
+        column-gap: 20px;
+    }
+
+    #contact::before,
+    #contact::after,
+    .contact__title::after {
+        display: none;
+    }
+
+    .contact__title {
+        margin: 0 0 50px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .header__nav {
+        background-color: var(--main);
+    }
+
+    .header__nav .container {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logoBig {
+        display: none;
+    }
+
+    .header__logo {
+        border: none;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .header__logo-link {
+        display: flex;
+        align-items: center;
+        /* column-gap: 12px;
+        font-size: 28px;
+        color: #007438;
+        font-weight: bold; */
+    }
+
+    .logoSmall {
+        display: flex;
+        width: 85px;
+        height: 54px;
+    }
+
+    .header__menu,
+    .header__menu::before,
+    .header__menu::after {
+        background: #fff;
+    }
+
+    .header__info-title {
+        font-size: 30px;
+    }
+
+    .header__info-txt {
+        font-size: 22px;
+    }
+
+    #shop {
+        padding: 65px 0;
+    }
+
+    .shop__cards {
+        grid-template-columns: 170px 170px;
+        grid-template-rows: 150px 150px;
+    }
+
+    .about__img {
+        max-width: 350px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 170px 170px;
+        grid-template-rows: 150px 150px;
+    }
+
+    .contact__adresses {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .work__title {
+        background: url(../img/lineSmall.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .about__desc-title::after {
+        width: 48%;
+    }
+}
+
+/* @media (max-width: 412px) {} */
+@media (max-width: 375px) {
+    .container {
+        max-width: 340px;
+    }
+
+    .shop__title {
+        font-size: 26px;
+        margin-bottom: 70px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 300px;
+        grid-template-rows: 250px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 300px;
+        grid-template-rows: 250px;
+    }
+
+    .about__img {
+        max-width: 330px;
+    }
+
+    .map {
+        height: 350px;
+    }
+
+    .contact__form {
+        max-width: 320px;
+    }
+
+    .contact__form input {
+        max-width: 260px;
+    }
+
+    .footer__socials {
+        column-gap: 45px;
+    }
+
+}
+/* @media (max-width: 360px) {} */
+@media (max-width: 320px) {
+    .container {
+        max-width: 280px;
+    }
+
+    .header__info-title {
+        font-size: 24px;
+    }
+
+    .header__info-txt {
+        font-size: 16px;
+    }
+
+    .shop__cards {
+        grid-template-columns: 280px;
+        grid-template-rows: 250px;
+    }
+
+    .work__boxes {
+        grid-template-columns: 300px;
+        grid-template-rows: 250px;
+    }
+
+    .contact__form {
+        max-width: 280px;
+    }
+
+    .contact__form input {
+        max-width: 230px;
+    }
+
+    .contact__title {
+        font-size: 26px;
+    }
+
+    .about__img {
+        max-width: 250px;
+    }
+}

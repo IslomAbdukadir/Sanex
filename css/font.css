@@ -1,0 +1,31 @@
+/* Raleway start */
+
+@font-face {
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+/* Raleway end */
+
+/* Lora */
+
+@font-face {
+    src: url(../fonts/Lora/Lora-Regular.ttf);
+    font-family: "Lora";
+}
+
+/* Lora */
+
