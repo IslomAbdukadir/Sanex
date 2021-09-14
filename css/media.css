@@ -234,9 +234,6 @@
 }
 
 @media (max-width: 768px) {
-    header {
-        position: relative;
-    }
 
     .container {
         max-width: 650px;
@@ -252,7 +249,7 @@
         width: 50px;
         background: #fff;
         position: relative;
-        display: flex;
+        display: block;
     }
 
     .header__menu::before,
@@ -268,6 +265,10 @@
 
     .header__menu::before {
         top: -15px;
+    }
+
+    .exit {
+        display: inline-block;
     }
 
     .header__info-title {
