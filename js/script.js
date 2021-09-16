@@ -21,7 +21,10 @@ var arrLang = {
         "dvuxkontur": "Двухконтурный котёл",
         "radiatori": "Радиаторы",
         "kollektor": "Коллектор",
-        "tyopliypol": "Тёплый пол"
+        "tyopliypol": "Тёплый пол",
+        "exit": "Выход",
+        "waterSupply": "Водоснабжение",
+        "sanitation": "Водоотведение"
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -45,7 +48,10 @@ var arrLang = {
         "dvuxkontur": "Ikki davrali qozon",
         "radiatori": "Radiatorlar",
         "kollektor": "Kollektor",
-        "tyopliypol": "Issiq pol"
+        "tyopliypol": "Issiq pol",
+        "exit": "Chiqish",
+        "waterSupply": "Suv ta'minoti",
+        "sanitation": "Kanalizatsiya"
     }, 
 };
 
