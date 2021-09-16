@@ -24,7 +24,8 @@ var arrLang = {
         "tyopliypol": "Тёплый пол",
         "exit": "Выход",
         "waterSupply": "Водоснабжение",
-        "sanitation": "Водоотведение"
+        "sanitation": "Водоотведение",
+        "seminars": "Семинары"
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -51,7 +52,8 @@ var arrLang = {
         "tyopliypol": "Issiq pol",
         "exit": "Chiqish",
         "waterSupply": "Suv ta'minoti",
-        "sanitation": "Kanalizatsiya"
+        "sanitation": "Kanalizatsiya",
+        "seminars": "Seminarlar"
     }, 
 };
 
