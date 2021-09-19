@@ -396,7 +396,6 @@ a {
 .work__boxes {
     display: grid;
     grid-template-columns: 470px 470px 470px;
-    grid-template-rows: 340px 340px;
     place-items: center;
     margin-bottom: 10px;
     gap: 30px;
