@@ -25,7 +25,8 @@ var arrLang = {
         "exit": "Выход",
         "waterSupply": "Водоснабжение",
         "sanitation": "Водоотведение",
-        "seminars": "Семинары"
+        "seminars": "Семинары",
+        "brands": "Популярные бренды"
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -53,7 +54,8 @@ var arrLang = {
         "exit": "Chiqish",
         "waterSupply": "Suv ta'minoti",
         "sanitation": "Kanalizatsiya",
-        "seminars": "Seminarlar"
+        "seminars": "Seminarlar",
+        "brands": "Mashxur brendlar"
     }, 
 };
 
