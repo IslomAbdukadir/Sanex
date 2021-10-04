@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../../css/all.min.css">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/media.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="../../js/jQuery.js"></script>
 </head>
-<body>
+<body class="cart__body">
 
     <header id="header">
         <nav class="header__nav">
@@ -59,9 +59,9 @@
                         <img src="../../img/shop/categories/dvuxkontur.png" alt="" class="buy__img-image">
                     </div>
                     <div class="buy__info">
-                        <h5 class="buy__name lang">Наименование товара</h5>
-                        <span class="buy__price lang">Цена</span>
-                        <span class="buy__size lang buy__span" key="size">Размер:</span>
+                        <h5 class="buy__name">Vaillant</h5>
+                        <span class="buy__price">4,150,000 so'm</span>
+                        <span class="buy__size lang buy__span" key="size">Размер: <span></span></span>
                         <span class="buy__color lang buy__span" key="color">Цвет:</span>
                         <span class="buy__form lang buy__span" key="form">Форма:</span>
                         <span class="buy__desc lang buy__span" key="desc">Описание:</span>
@@ -70,9 +70,9 @@
                         </p>
                         <div class="buy__buttons">
                             <a href="#!" class="buy__button lang buy__btn" key="buy">КУПИТЬ</a>
-                            <a href="#!" class="buy__minus buy__btn">-</a>
-                            <a href="#!" class="buy__numb">1</a>
-                            <a href="#!" class="buy__plus buy__btn">+</a>
+                            <a href="#!" class="buy__minus buy__btn btn" data-symbol="-">-</a>
+                            <a href="#!" class="buy__numb num">1</a>
+                            <a href="#!" class="buy__plus buy__btn btn" data-symbol="+">+</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
         </section>
         <section id="shop">
             <div class="container">
-                <h3 class="shop__title">Похожие товары</h3>
+                <h3 class="shop__title lang" key="similar">Похожие товары</h3>
                 <div class="shop__cards">
                     <a href="product.html" class="shop__card product">
                         <img src="../../img/shop/categories/dvuxkontur.png" alt="" class="shop__card-img product__img">
@@ -114,6 +114,38 @@
             </div>
         </section>
     </main>
+    <div class="cart active">
+        <div class="cart__box container">
+            <h5 class="cart__box-title lang cart__title" key="">Оформить заказ</h5>
+            <form action="" class="cart__box-form">
+                <input type="text" name="address" id="address" class="cart__info" placeholder="Адрес доставки">
+                <input type="text" name="name" id="name" class="cart__info" placeholder="Имя получателя">
+                <input type="number" name="number" id="number" class="cart__info" placeholder="Номер получателя">
+                
+                <h5 class="cart__box-title lang cart__title cart__payment-title" key="">Заказанный товар</h5>
+                <div class="cart__box-product">
+                    <div class="cart__box-img">
+                        <img src="../../img/shop/categories/dvuxkontur.png" alt="">
+                    </div>
+                    <h5 class="buy__name">Vaillant</h5>
+                    <span class="buy__amount">1 шт</span>
+                    <span class="buy__price buy__price2">4,150,000 so'm</span>
+                </div>
+                <h5 class="cart__box-title lang cart__title cart__payment-title" key="">Выберите способ оплаты</h5>
+                <div class="cart__payment">
+                    <input type="checkbox" name="cash" id="cash">
+                    <label for="cash">Наличные</label>
+                    <input type="checkbox" name="cash" id="click">
+                    <label for="click"><img src="../../img/click.png" alt=""></label>
+                    <input type="checkbox" name="cash" id="payme">
+                    <label for="payme"><img src="../../img/payme.png" alt=""></label>
+                </div>
+                
+                
+                <input type="submit" value="ЗАКАЗАТЬ" class="submit">
+            </form>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="footer__socials">

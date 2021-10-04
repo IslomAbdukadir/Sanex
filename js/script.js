@@ -26,7 +26,13 @@ var arrLang = {
         "waterSupply": "Водоснабжение",
         "sanitation": "Водоотведение",
         "seminars": "Семинары",
-        "brands": "Популярные бренды"
+        "brands": "Популярные бренды",
+        "size": "Размер:",
+        "color": "Цвет:",
+        "form": "Форма:",
+        "desc": "Описание:",
+        "buy": "КУПИТЬ",
+        "similar": "Похожие товары"
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -55,7 +61,13 @@ var arrLang = {
         "waterSupply": "Suv ta'minoti",
         "sanitation": "Kanalizatsiya",
         "seminars": "Seminarlar",
-        "brands": "Mashxur brendlar"
+        "brands": "Mashxur brendlar",
+        "size": "O'lcham:",
+        "color": "Rangi:",
+        "form": "Formasi:",
+        "desc": "Tavsif:",
+        "buy": "SOTIB OLMOQ",
+        "similar": "O'xshash maxsulotlar"
     }, 
 };
 
@@ -98,5 +110,60 @@ menu.addEventListener("click", function () {
     list2.style.display = "flex";   
 })
 
+
+const product = {
+    plainProduct: {
+        name: 'Vaillant',
+        price: 4150000,
+        size: '40см/50см',
+        color: 'Белый',
+        form: 'Прямоугольный',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas tellus, quis viverra at augue consequat augue dictum. Interdum semper mi ipsum sit ridiculus mauris fermentum eleifend non. Feugiat et urna tincidunt faucibus. Feugiat mauris sagittis vitae.',
+        amount: 1,
+        get calcSum() {
+            return this.price * this.amount;
+        }
+    }
+}
+
+let btn = document.querySelectorAll('.btn');
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener('click', function() {
+        // console.log(btn[i]);
+        prepare(this);
+    })
+}
+
+function prepare(el) {
+    let parent = el.closest('.buy__buttons');
+    let num = parent.querySelector('.num');
+    let amount = product.plainProduct.amount;
+    let sym = el.getAttribute('data-symbol');
+    let price = document.querySelector('.buy__price');
+    
+    if (sym == '+' && amount < 50) {
+        amount++;
+    } else if (sym == '-' && amount > 1) {
+        amount--;
+    }
+    
+    num.innerHTML = amount;
+    product.plainProduct.amount = amount;
+    price.innerHTML = product.plainProduct.calcSum + " so'm";
+    
+    // console.log(amount);
+}
+
+
+let addCart = document.querySelector(".buy__button");
+let cartBody =document.querySelector(".cart__body");
+let cart = document.querySelector(".cart");
+
+addCart.addEventListener('click', function() {
+    cartBody.style.overflow = "hidden";
+    cart.style.display = "flex"
+}
+)
 
 
