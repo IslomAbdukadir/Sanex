@@ -53,6 +53,14 @@
         grid-template-columns: 380px 380px 380px;
     }
 
+    .work__content-desc {
+        max-width: 700px;
+    }
+
+    .work__content-img {
+        max-width: 450px;
+    }
+
     /* work end */
     /* buy img */
 
@@ -120,6 +128,23 @@
     .work__box {
         max-width: 360px;
         max-height: 270px;
+    }
+
+    .work__content-desc {
+        max-width: 650px;
+    }
+
+    .work__content-img {
+        max-width: 450px;
+    }
+
+    .work__content-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .work__content-text li {
+        font-size: 18px;
     }
 
     #contact::before,
@@ -206,6 +231,18 @@
     .buy__info {
         max-width: 480px;
     }
+
+    .work__content-desc {
+        max-width: 570px;
+    }
+
+    .work__content-img {
+        max-width: 400px;
+    }
+
+    .work__content-text {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -246,6 +283,18 @@
     .work__boxes {
         grid-template-columns: 380px 380px;
         place-content: center;
+    }
+
+    .work__content-desc {
+        max-width: 520px;
+    }
+
+    .work__content-img {
+        max-width: 380px;
+    }
+
+    .work__content-text {
+        margin-bottom: 10px;
     }
 
     /* buy */
@@ -379,6 +428,46 @@
         max-height: 240px;
     }
 
+    .work__content-desc {
+        /* flex-direction: column; */
+        max-width: 650px;
+    }
+
+    .work__content-img {
+        display: none;
+    }
+
+    .work__img-boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work__img-box {
+        max-width: 300px;
+        max-height: 300px;
+        overflow: hidden;
+        box-shadow: 3px 2px 20px rgb(61, 66, 64);
+    }
+
+    .work__img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .work__content-text h2 {
+        text-align: center;
+    }
+
+    .work__content,
+    .work__img-boxes {
+        margin-bottom: 40px;
+    }
+
+    /* work end */
+    /* contact start */
+
     .contact__title::after {
         right: 0;
     }
@@ -452,6 +541,15 @@
         max-width: 600px;
     }
 
+    .work__img-box {
+        max-width: 280px;
+        max-height: 300px;
+    }
+
+    .heating__title {
+        font-size: 32px;
+    }
+
     #contact::before,
     #contact::after {
         right: 63%;
@@ -495,9 +593,9 @@
         max-width: 550px;
     }
 
-    .header__logo {
+    /* .header__logo {
         margin: 0 auto;
-    }
+    } */
 
     .header__content .container {
         padding: 0 20px 0 50px;
@@ -529,6 +627,15 @@
 
     .work__box {
         max-height: 186px;
+    }
+
+    .work__content-desc {
+        margin: 0 20px;
+    }
+
+    .work__img-box {
+        max-width: 260px;
+        max-height: 300px;
     }
 
     .contact__phones,
@@ -632,8 +739,25 @@
         grid-template-rows: 150px 150px;
     }
 
+    #work {
+        padding-top: 55px;
+    }
+
     .work__box {
         max-height: 127px;
+    }
+
+    .work__img-boxes {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .work__img-box {
+        max-width: 380px;
+    }
+
+    .work__img-box img {
+        object-position: 0 -120px;
     }
 
     .contact__adresses {
@@ -693,6 +817,18 @@
         max-height: 250px;
     }
 
+    .heating__title {
+        margin-bottom: 40px;
+    }
+
+    .work__content-text h2 {
+        font-size: 18px;
+    }
+
+    /* work end */
+
+    /* about start */
+
     .about__img {
         max-width: 330px;
     }
@@ -731,6 +867,7 @@
     .product__price {
         font-size: 22px;
     }
+
     .cart__box {
         text-align: center;
     }
@@ -756,9 +893,21 @@
         grid-template-rows: 250px;
     }
 
+    #work {
+        padding-top: 50px;
+    }
+
     .work__boxes {
         grid-template-columns: 300px;
         grid-template-rows: 250px;
+    }
+    
+    .work__content-desc {
+        margin: 0px 10px;
+    }
+
+    .work__img-box img {
+        object-position: 0 -70px;
     }
 
     .contact__form {

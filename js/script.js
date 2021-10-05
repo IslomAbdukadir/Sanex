@@ -32,7 +32,10 @@ var arrLang = {
         "form": "Форма:",
         "desc": "Описание:",
         "buy": "КУПИТЬ",
-        "similar": "Похожие товары"
+        "similar": "Похожие товары",
+        "floorHeating": "Установка и монтаж тёплого пола",
+        "radiatorHeating": "Установка и монтаж радиаторов отопления",
+        "boilerHeating": "Установка и монтаж котлов",
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -67,7 +70,10 @@ var arrLang = {
         "form": "Formasi:",
         "desc": "Tavsif:",
         "buy": "SOTIB OLMOQ",
-        "similar": "O'xshash maxsulotlar"
+        "similar": "O'xshash maxsulotlar",
+        "floorHeating": "Установка и монтаж тёплого пола",
+        "radiatorHeating": "Установка и монтаж радиаторов отопления",
+        "boilerHeating": "Установка и монтаж котлов",
     }, 
 };
 
