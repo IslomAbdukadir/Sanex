@@ -21,6 +21,10 @@
     /* header start */
     /* shop start */
 
+    .shop__cards {
+        grid-template-columns: 285px 285px 285px 285px; 
+    }
+
     .shop__card {
         max-width: 285px;
     }
@@ -44,13 +48,13 @@
     /* about end */
     /* work start */
 
-    .work__box {
-        max-width: 390px;
-        max-height: 285px;
-    }
-
     .work__boxes {
         grid-template-columns: 380px 380px 380px;
+    }
+
+    .work__box {
+        max-width: 380px;
+        max-height: 274px;
     }
 
     .work__content-desc {
@@ -147,6 +151,10 @@
         font-size: 18px;
     }
 
+    .work__box:hover .work__box-span {
+        font-size: 26px;
+    }
+
     #contact::before,
     #contact::after {
         right: 45%;
@@ -173,7 +181,11 @@
     }
 
     .shop__cards {
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 350px 350px;
+    }
+
+    .shop__card {
+        max-width: 350px;
     }
 
     .about__desc-year {
@@ -186,6 +198,15 @@
 
     .work__boxes {
         grid-template-columns: 480px 480px;
+    }
+
+    .work__box-span {
+        z-index: 1;
+        background: rgba(47, 138, 36, 0.55);
+        font-size: 32px;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 3px 5px #000;
     }
 
     .about__desc2 {
@@ -629,6 +650,10 @@
         max-height: 186px;
     }
 
+    .work__box-span {
+        font-size: 22px;
+    }
+
     .work__content-desc {
         margin: 0 20px;
     }
@@ -730,6 +755,10 @@
         grid-template-rows: 150px 150px;
     }
 
+    .shop__card-span {
+        font-size: 18px;
+    }
+
     .about__img {
         max-width: 350px;
     }
@@ -745,6 +774,10 @@
 
     .work__box {
         max-height: 127px;
+    }
+
+    .work__box-span {
+        font-size: 18px;
     }
 
     .work__img-boxes {
