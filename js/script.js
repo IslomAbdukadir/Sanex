@@ -36,6 +36,7 @@ var arrLang = {
         "floorHeating": "Установка и монтаж тёплого пола",
         "radiatorHeating": "Установка и монтаж радиаторов отопления",
         "boilerHeating": "Установка и монтаж котлов",
+        "razvodka": "Разводка инженерных коммуникаций"
     },
     "uz": {
         "product": "Maxsulotlar",
@@ -74,6 +75,7 @@ var arrLang = {
         "floorHeating": "Установка и монтаж тёплого пола",
         "radiatorHeating": "Установка и монтаж радиаторов отопления",
         "boilerHeating": "Установка и монтаж котлов",
+        "razvodka": "Разводка инженерных коммуникаций"
     }, 
 };
 
@@ -154,8 +156,8 @@ function prepare(el) {
         amount--;
     }
     
-    num.innerHTML = amount;
     product.plainProduct.amount = amount;
+    num.innerHTML = amount;
     price.innerHTML = product.plainProduct.calcSum + " so'm";
     
     // console.log(amount);
