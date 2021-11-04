@@ -789,10 +789,6 @@
         max-width: 380px;
     }
 
-    .work__img-box img {
-        object-position: 0 -120px;
-    }
-
     .contact__adresses {
         flex-direction: column;
         row-gap: 30px;
@@ -937,10 +933,6 @@
     
     .work__content-desc {
         margin: 0px 10px;
-    }
-
-    .work__img-box img {
-        object-position: 0 -70px;
     }
 
     .contact__form {
